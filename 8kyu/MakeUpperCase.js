@@ -1,0 +1,1 @@
+const duvan = 21;
