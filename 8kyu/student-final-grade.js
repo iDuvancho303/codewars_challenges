@@ -36,15 +36,20 @@ Examples(Inputs-->Output):
 // create a function 'FinalGrade'
 // must have two parameters. one for grade of the exam and one for the number of projects
 
+
 function finalGrade(g, p) {
-    if(g > 100 || p > 10) {
-        console.log('your grade is 100%');
+    if(g >= 100 || p >= 10) {
+        return 100;
     } else if(g > 75 && p >= 5) {
-        console.log('Your grade is 90%');
+        return 90;
     } else if(g > 50 && p >= 2) {
-        console.log('Your grade is 75%');
-    } else console.log('You are fired!');
+        return 75;
+    } else return 0;
 };
 
-finalGrade(60, 6);
+finalGrade(100, 10);
+
+console.log(finalGrade(100, 10));
+
+// Me devuelve 100
 
