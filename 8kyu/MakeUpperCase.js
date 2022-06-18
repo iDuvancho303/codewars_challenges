@@ -1,1 +1,9 @@
-const duvan = 21;
+/* Write a function which converts the input string to uppercase. */
+
+
+
+/* My Solution */
+
+function makeUpperCase(str) {
+  return str.toLocaleUpperCase();
+}
