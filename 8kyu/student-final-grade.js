@@ -42,6 +42,9 @@ function finalGrade(g, p) {
     } else(g > 75 && p >= 5) {
         console.log('Your grade is 90%');
     } else(g > 50 && p >= 2) {
-        console.log('Your grade is 75%')
-    } else
-}
+        console.log('Your grade is 75%');
+    } else console.log('You are fired!');
+};
+
+finalGrade(60, 6);
+
