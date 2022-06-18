@@ -1,4 +1,4 @@
-/* structions Output
+/* instructions Output
 
 Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
 
@@ -36,4 +36,12 @@ Examples(Inputs-->Output):
 // create a function 'FinalGrade'
 // must have two parameters. one for grade of the exam and one for the number of projects
 
-function finalGrade()
+function finalGrade(g, p) {
+    if(g > 100 || p > 10) {
+        console.log('your grade is 100%');
+    } else(g > 75 && p >= 5) {
+        console.log('Your grade is 90%');
+    } else(g > 50 && p >= 2) {
+        console.log('Your grade is 75%')
+    } else
+}
