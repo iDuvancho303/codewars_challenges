@@ -7,3 +7,13 @@ Example(Input --> Output)
 */
 
 // My solution
+
+var nombreCompleto = ['Duvan', 'Flores'];
+
+function nameShuffler(x, y){
+ 
+  }
+
+
+
+ NO PUDE CON ESTE CHALLENGE
