@@ -39,9 +39,9 @@ Examples(Inputs-->Output):
 function finalGrade(g, p) {
     if(g > 100 || p > 10) {
         console.log('your grade is 100%');
-    } else(g > 75 && p >= 5) {
+    } else if(g > 75 && p >= 5) {
         console.log('Your grade is 90%');
-    } else(g > 50 && p >= 2) {
+    } else if(g > 50 && p >= 2) {
         console.log('Your grade is 75%');
     } else console.log('You are fired!');
 };
