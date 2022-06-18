@@ -38,7 +38,7 @@ Examples(Inputs-->Output):
 
 
 function finalGrade(g, p) {
-    if(g >= 90 || p >= 10) {
+    if(g > 90 || p > 10) {
         return 100;
     } else if(g > 75 && p >= 5) {
         return 90;
